@@ -1,0 +1,22 @@
+[1] design for min 992px 
+[2] design fr min-width 767px
+[3] for mobile
+[4] the trnastion tag better to be last line in selector
+[5] to hide image use a parent div 
+[6] fill animation with before left -100% => left 0 , z-index -1 
+[7] in header to keep the height fixed giv logo any height 
+[8] column effect in flex could done by giving first child 100% width , and flex-wrap: wrap
+[9] cant put Transform & Animation in the same element
+[10] when we use delay on the parent(unHoverd element) it works before transition and after 
+        but when we use it on :hover it works only when transition start
+[11] #animation# if we set property to change at 100% => the change will spreate from 0% - 100% 
+        unless we set value to the same property on e.g 30% then the chang will be from 30% - 100%
+[12] # transition & :hover # cant use on hover " left right top bottom " unless put initial value on the unHoverd state to the same direction
+{do close section which open on hover}
+{do a 2-3-4 element with responesev grid(.container) class }
+{visit hacker rank and solve problems every day}
+[13] # ::before # must have absolute position to fill the parent 
+[14] # img on flex # to keep the espact ratio fixed use margin:auto ;
+[14] # img on flex THE Resone # disolay:flex => aling-items:stretech => bad image
+[15] # Background Animation # to keep the animation smooth and avoid the cut (after the 100% the Background will inmediatly get back to the old one -no trnasition effect- )
+        to solve this problem use the same Background at ( 0% , 100% ) then set the onther Background at ( 50% )
